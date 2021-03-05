@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- OG -->
-		<meta property="og:url" content="https://clockspeed.org" />
+		<meta property="og:url" content="https://clockspeed-project.github.io" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="Clockspeed" />
 		<meta property="og:description" content="one-CPU-one-vote, the world's fastest PoW blockchain" />
@@ -17,7 +17,7 @@
 		<meta name="twitter:description" content="one-CPU-one-vote, the world's fastest PoW blockchain" />
 		<meta name="twitter:site" content="@clockspeed_dev" />
 		<meta name="twitter:creator" content="@clockspeed_dev" />
-		<meta name="twitter:image" content="https://clockspeed.org/og_image.jpg" />
+		<meta name="twitter:image" content="https://clockspeed-project.github.io/og_image.jpg" />
 
 		<title>Clockspeed</title>
 		<link rel="icon" type="image/png" href="logo.png">
@@ -181,7 +181,7 @@
 			|
 			<a href="https://twitter.com/clockspeed_dev" target="_blank" rel="nofollow">Twitter</a>
 			|
-			<a href="https://forum.clockspeed.org" target="_blank" rel="nofollow">Forum</a>
+			<a href="https://forum.clockspeed-project.github.io" target="_blank" rel="nofollow">Forum</a>
 			|
 			<a href="https://chat.clock.wtf" target="_blank" rel="nofollow">Rocket.Chat</a>
 			|
@@ -195,9 +195,9 @@
 
 			function stats(first = false) {
 				Promise.resolve($.ajax({
-					url: "https://api.clockspeed.org/info",
+					url: "https://api.clockspeed-project.github.io/info",
 				})).then(function(data) {
-					$("#height .current").attr("href", "https://1explorer.clockspeed.org/block/" + data["result"]["bestblockhash"])
+					$("#height .current").attr("href", "https://1explorer.clockspeed-project.github.io/block/" + data["result"]["bestblockhash"])
 					$("#height .current").text(data["result"]["blocks"])
 					if (first) {
 						height_start = data["result"]["blocks"]

@@ -143,8 +143,8 @@ rpcpassword=password
 [size=15pt]Pools[/size]
 Please contact us if you have a new mining pool.
 [list]
-[li]1pool@tokyo https://1pool.clockspeed.org/[/li]
-[li]2pool@tokyo https://2pool.clockspeed.org/[/li]
+[li]1pool@tokyo https://1pool.clockspeed-project.github.io/[/li]
+[li]2pool@tokyo https://2pool.clockspeed-project.github.io/[/li]
 [li]52hash@china http://clock.52hash.com/[/li]
 [li]rplant@moscow https://pool.rplant.xyz/[/li]
 [li]happysensor@korea http://pool.happysensor.xyz/[/li]
@@ -153,7 +153,7 @@ Please contact us if you have a new mining pool.
 
 [size=15pt]Explorer[/size]
 [list]
-[li]1explorer: https://1explorer.clockspeed.org/[/li]
+[li]1explorer: https://1explorer.clockspeed-project.github.io/[/li]
 [li]2explorer: comming soon[/li]
 [li]trezor blockbook: https://clockspeed-blockbook.ilmango.work/[/li]
 [/list]

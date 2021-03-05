@@ -1,7 +1,7 @@
 [center]
 [size=20pt][b]Clockspeed[/b][/size]
 one-CPU-one-vote, the world's fastest PoW blockchain  
-https://clockspeed.org
+https://clockspeed-project.github.io
 [/center]
 
 
@@ -164,8 +164,8 @@ rpcallowip=127.0.0.1[/tt][/quote][/li]
 [quote][tt]./cpuminer -a yespower -o http://localhost:34229 --no-longpoll -u username -p password --coinbase-addr=clock1q... -t1[/tt][/quote][/li]
 
 [li]Detailed solo mining tutorials:[list]
-[li]Windows: https://forum.clockspeed.org/d/9-solo-mining-on-windows[/li]
-[li]Linux: https://forum.clockspeed.org/d/20-solo-mining-on-linux[/li]
+[li]Windows: https://forum.clockspeed-project.github.io/d/9-solo-mining-on-windows[/li]
+[li]Linux: https://forum.clockspeed-project.github.io/d/20-solo-mining-on-linux[/li]
 [li]OSX: comming soon[/li][/list][/li]
 [/list][/li]
 
@@ -177,8 +177,8 @@ rpcallowip=127.0.0.1[/tt][/quote][/li]
 [size=15pt]Pools[/size]
 Please contact us if you have a new mining pool.
 [list]
-[li]1pool@tokyo: https://1pool.clockspeed.org[/li]
-[li]2pool@tokyo: https://2pool.clockspeed.org[/li]
+[li]1pool@tokyo: https://1pool.clockspeed-project.github.io[/li]
+[li]2pool@tokyo: https://2pool.clockspeed-project.github.io[/li]
 [li]52hash@china: http://clock.52hash.com[/li]
 [li]rplant@moscow: https://pool.rplant.xyz[/li]
 [li]happysensor@korea: http://pool.happysensor.xyz[/li]
@@ -188,7 +188,7 @@ Please contact us if you have a new mining pool.
 
 [size=15pt]Explorer[/size]
 [list]
-[li]1explorer: https://1explorer.clockspeed.org[/li]
+[li]1explorer: https://1explorer.clockspeed-project.github.io[/li]
 [li]2explorer: comming soon[/li]
 [li]trezor blockbook: https://clockspeed-blockbook.ilmango.work/blocks[/li]
 [/list]
@@ -205,7 +205,7 @@ Please contact us if you have a new mining pool.
 [size=15pt]Community[/size]
 [list]
 [li]Discord: https://discord.gg/5fvpTdk[/li]
-[li]Forum: https://forum.clockspeed.org[/li]
+[li]Forum: https://forum.clockspeed-project.github.io[/li]
 [li]Bitcointalk: https://bitcointalk.org/index.php?topic=5177722.0[/li]
 [li]Telegram: https://t.me/clockspeed[/li]
 [li]Twitter: https://twitter.com/clockspeed_dev[/li]

@@ -1,7 +1,7 @@
 Clockspeed
 ==========
 one-CPU-one-vote, the world's fastest PoW blockchain  
-https://clockspeed.org
+https://clockspeed-project.github.io
 
 
 The meaning of Yumekawa
@@ -134,8 +134,8 @@ Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. If y
   ./cpuminer -a yespower -o http://localhost:34229 --no-longpoll -u username -p password --coinbase-addr=clock1q... -t1
   ```
   * Detailed solo mining tutorials:
-    - Windows: https://forum.clockspeed.org/d/9-solo-mining-on-windows
-    - Linux: https://forum.clockspeed.org/d/20-solo-mining-on-linux
+    - Windows: https://forum.clockspeed-project.github.io/d/9-solo-mining-on-windows
+    - Linux: https://forum.clockspeed-project.github.io/d/20-solo-mining-on-linux
     - OSX: comming soon
 - Pool mining:
 ```bash
@@ -146,8 +146,8 @@ Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. If y
 Pools
 -----
 Please contact us if you have a new mining pool.
-- 1pool@tokyo: https://1pool.clockspeed.org
-- 2pool@tokyo: https://2pool.clockspeed.org
+- 1pool@tokyo: https://1pool.clockspeed-project.github.io
+- 2pool@tokyo: https://2pool.clockspeed-project.github.io
 - 52hash@china: http://clock.52hash.com
 - rplant@moscow: https://pool.rplant.xyz
 - happysensor@korea: http://pool.happysensor.xyz
@@ -157,7 +157,7 @@ Please contact us if you have a new mining pool.
 
 Explorer
 --------
-- 1explorer: https://1explorer.clockspeed.org
+- 1explorer: https://1explorer.clockspeed-project.github.io
 - 2explorer: comming soon
 - trezor blockbook: https://clockspeed-blockbook.ilmango.work/blocks
 
@@ -172,7 +172,7 @@ Exchanges
 Community
 ---------
 - Discord: https://discord.gg/5fvpTdk
-- Forum: https://forum.clockspeed.org
+- Forum: https://forum.clockspeed-project.github.io
 - Bitcointalk: https://bitcointalk.org/index.php?topic=5177722.0
 - Telegram: https://t.me/clockspeed
 - Twitter: https://twitter.com/clockspeed_dev

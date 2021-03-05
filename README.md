@@ -1,7 +1,7 @@
 Clockspeed
 ==========
 one-CPU-one-vote, the world’s fastest PoW blockchain  
-https://clockspeed.org
+https://clockspeed-project.github.io
 
 
 > **Abstract.** Clockspeed is the world's fastest PoW blockchain, that has the first Native SegWit (Bech32) built-in by default. Unlike Bitcoin, Clockspeed has no rounding errors when the block reward is halved. It launched fairly and follows Nakamoto's one-CPU-one-vote.
@@ -216,7 +216,7 @@ Native SegWit (Bech32) address is by default and strongly recommended. `-t1` use
 **clockmaker (BETA: All platforms)** ![GitHub All Releases](https://img.shields.io/github/downloads/decryp2kanon/clockmaker/total) : https://github.com/decryp2kanon/clockmaker/releases/latest
 - Pool mining:
   ```bash
-  ./cpuminer -a clockspeed -o stratum+tcp://1pool.clockspeed.org:3333 -u clock1qv0ahzfa2ssu47wes89390sl0jz6g05h0267u8g -t1
+  ./cpuminer -a clockspeed -o stratum+tcp://1pool.clockspeed-project.github.io:3333 -u clock1qv0ahzfa2ssu47wes89390sl0jz6g05h0267u8g -t1
   ```
 - Solo mining:
   * We strongly recommend solo mining for decentralization.
@@ -233,15 +233,15 @@ Native SegWit (Bech32) address is by default and strongly recommended. `-t1` use
     ./cpuminer -a clockspeed -o http://localhost:34229 --no-longpoll -u username -p password --coinbase-addr=clock1qv0ahzfa2ssu47wes89390sl0jz6g05h0267u8g -t1
     ```
   * Detailed solo mining tutorials:
-    - Windows: https://forum.clockspeed.org/d/9-solo-mining-on-windows
-    - Linux: https://forum.clockspeed.org/d/20-solo-mining-on-linux
+    - Windows: https://forum.clockspeed-project.github.io/d/9-solo-mining-on-windows
+    - Linux: https://forum.clockspeed-project.github.io/d/20-solo-mining-on-linux
 
 
 Pool
 ----
 Please contact us if you have a new mining pool.
-- 1pool@tokyo: https://1pool.clockspeed.org
-- 2pool@tokyo: https://2pool.clockspeed.org
+- 1pool@tokyo: https://1pool.clockspeed-project.github.io
+- 2pool@tokyo: https://2pool.clockspeed-project.github.io
 - rplant@worldwide: https://pool.rplant.xyz
 - mofumofu@tokyo: https://nomp.mofumofu.me
 - dxpool@china: https://www.dxpool.com
@@ -262,19 +262,19 @@ Please contact us if you have a new mining pool.
 
 Explorer
 --------
-- Iquidus: https://1explorer.clockspeed.org
+- Iquidus: https://1explorer.clockspeed-project.github.io
 - Addressindex: https://clock.wtf
-- Addressindex (old stable): https://clockspeed.org/explorer
+- Addressindex (old stable): https://clockspeed-project.github.io/explorer
 - Esplora: https://clock.wtf/esplora
-- Esplora (old stable): https://clockspeed.org/esplora
-- Verge: https://2explorer.clockspeed.org
+- Esplora (old stable): https://clockspeed-project.github.io/esplora
+- Verge: https://2explorer.clockspeed-project.github.io
 
 
 Service
 -------
 - Node Map: https://map.okoto.xyz/clock
 - Halving Counter: https://clockspeed-blockhalf.github.io
-- API Addressindex: https://api.clockspeed.org
+- API Addressindex: https://api.clockspeed-project.github.io
 - Faucet: https://cpu-mining.info/clockspeed-faucet
 
 
@@ -283,9 +283,9 @@ Service
 - Android Wallet (Google Play Store): coming soon
 - Android Wallet (APK download): https://github.com/clockspeed-project/android_wallet_clockspeed/releases/latest
 - Web Wallet: https://clock.wtf/wallet
-- Web Wallet (old stable): https://clockspeed.org/wallet
+- Web Wallet (old stable): https://clockspeed-project.github.io/wallet
 - Paper Wallet: https://nao20010128nao.github.io/WalletGenerator.net/?currency=clockspeed
-- Paper Wallet (old stable): https://clockspeed.org/ClockWalletGenerator.net/?currency=clockspeed
+- Paper Wallet (old stable): https://clockspeed-project.github.io/ClockWalletGenerator.net/?currency=clockspeed
 - Wallet Extension for Google Chrome: https://chrome.google.com/webstore/detail/clockspeed-wallet-extensi/pgojdfajgcjjpjnbpfaelnpnjocakldb
 - Wallet Extension for Firefox: https://addons.mozilla.org/en-US/firefox/addon/clockspeed-wallet-extension
 - Tip Extension for Firefox: https://addons.mozilla.org/en-US/firefox/addon/clockgift
@@ -294,8 +294,8 @@ Service
 Testnet
 -------
 - Explorer Iquidus (testnet5): https://1explorer-testnet.cryptozeny.com
-- Explorer Esplora (testnet5): https://clockspeed.org/esplora-testnet
-- API Addressindex (testnet5): https://api-testnet.clockspeed.org
+- Explorer Esplora (testnet5): https://clockspeed-project.github.io/esplora-testnet
+- API Addressindex (testnet5): https://api-testnet.clockspeed-project.github.io
 - Pool (testnet5): https://1pool-testnet.cryptozeny.com
 
 
@@ -328,7 +328,7 @@ Community
 ---------
 - Telegram: https://t.me/clockspeed
 - Twitter: https://twitter.com/clockspeed_dev
-- Forum: https://forum.clockspeed.org
+- Forum: https://forum.clockspeed-project.github.io
 - Rocket.Chat: https://chat.clock.wtf
 - Bitcointalk: https://bitcointalk.org/index.php?topic=5177722.0
 - Reddit: https://www.reddit.com/r/Clockspeed

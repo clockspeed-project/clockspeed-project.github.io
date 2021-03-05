@@ -1,6 +1,6 @@
 Clockspeed
 ==========
-one-CPU-one-vote, the world's fastest PoW blockchain  
+Clockspeed is a cryptocurrency fastest PoW blockchain.  
 https://clockspeed-project.github.io
 
 

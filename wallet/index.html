@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="/cdn/wizardry.min.css">
 		<link rel="stylesheet" href="/cdn/entypo/entypo.css">
 
-		<link rel="icon" type="image/png" href="https://sugarchain.org/logo.png">
+		<link rel="icon" type="image/png" href="https://clockspeed.org/logo.png">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -95,7 +95,7 @@
 			}
 		</style>
 		<title>Wallet</title>
-		<meta name="description" content="Sugarchain Web Wallet">
+		<meta name="description" content="Clockspeed Web Wallet">
 	</head>
 	<body>
 		<!-- Navbar -->
@@ -195,7 +195,7 @@
 									<a class="nav-link tab-link" data-tab-name="wallet-send" data-tab-family="wallet-block" href="#" tkey="send"></a>
 								</li>
 								<li class="nav-item mr-2">
-									<a id="history-link" class="nav-link" target="_blank" href="https://sugarchain.org/explorer/#/address/" tkey="history"></a>
+									<a id="history-link" class="nav-link" target="_blank" href="https://clockspeed.org/explorer/#/address/" tkey="history"></a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link tab-link" data-tab-name="wallet-keys" data-tab-family="wallet-block" href="#" tkey="keys"></a>
@@ -421,7 +421,7 @@
 		<!-- Footer :3 -->
 		<footer class="mb-3">
 			<div class="container text-center">
-				Made with <span class="entypo heart text-danger"></span> by <a target="_blank" href="https://github.com/sugarchain-project/web-wallet">Volbil</a>
+				Made with <span class="entypo heart text-danger"></span> by <a target="_blank" href="https://github.com/clockspeed-project/web-wallet">Volbil</a>
 			</div>
 		</footer>
 
@@ -431,21 +431,21 @@
 			var walletTimer = false
 			var walletVersion = '0.4'
 			var networkConfigs = {
-				'SUGAR': {
-					'uri': 'sugarchain:',
-					'title': 'Sugar Wallet',
-					'name': 'Main Network (SUGAR)',
-					'api': 'https://api.sugarchain.org',
-					'ticker': 'SUGAR',
+				'CLOCK': {
+					'uri': 'clockspeed:',
+					'title': 'Clock Wallet',
+					'name': 'Main Network (CLOCK)',
+					'api': 'https://api.clockspeed.org',
+					'ticker': 'CLOCK',
 					'decimals': 8,
 					'fee': 0.00001,
 					'network': {
-						'messagePrefix': '\x19Sugarchain Signed Message:\n',
+						'messagePrefix': '\x19Clockspeed Signed Message:\n',
 						'bip32': {
 							'public': 0x0488b21e,
 							'private': 0x0488ade4
 						},
-						'bech32': 'sugar',
+						'bech32': 'clock',
 						'pubKeyHash': 0x3F,
 						'scriptHash': 0x7D,
 						'wif': 0x80
@@ -456,10 +456,10 @@
 			// Explorer links
 			var blockExplorer = {
 				'address': function(address) {
-					return 'https://sugarchain.org/explorer/#/address/' + address + '/' + getConfig()['ticker']
+					return 'https://clockspeed.org/explorer/#/address/' + address + '/' + getConfig()['ticker']
 				},
 				'tx': function(tx) {
-					return 'https://sugarchain.org/explorer/#/transaction/' + tx + '/' + getConfig()['ticker']
+					return 'https://clockspeed.org/explorer/#/transaction/' + tx + '/' + getConfig()['ticker']
 				}
 			}
 
